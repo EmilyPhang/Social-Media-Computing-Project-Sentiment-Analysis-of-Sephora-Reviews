@@ -2,16 +2,11 @@
 
 This project explores the effectiveness of various machine learning and deep learning models in classifying customer sentiment from Sephora product reviews. The models include Logistic Regression, SVM, Pre-Trained BERT, CNN, and Fine-Tuned BERT. The goal is to evaluate how well each model can detect **positive**, **neutral**, and **negative** sentiments from user-generated text.
 
----
-
 ## Dataset
 
 - **Source**: Sephora product review dataset (https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)  
 - **Classes**: Positive, Neutral, Negative  
 - **Split**: 60% Training, 20% Validation, 20% Testing  
-
-
----
 
 ## Models Used
 
@@ -23,8 +18,6 @@ This project explores the effectiveness of various machine learning and deep lea
 
 Each model was evaluated using **accuracy**, **precision**, **recall**, and **F1-score**, along with **confusion matrix** analysis.
 
----
-
 ## Results Summary
 
 | Model                  | Accuracy | Precision | Recall | F1-Score |
@@ -35,15 +28,12 @@ Each model was evaluated using **accuracy**, **precision**, **recall**, and **F1
 | CNN                   | 71.00%   | 70.00%    | 71.00% | 70.00%   |
 | Fine-Tuned BERT       | **79.00%** | **79.00%** | **79.00%** | **79.00%** |
 
----
-
 ## Key Findings
 
 - Fine-Tuned BERT outperformed all other models across all metrics.
 - CNN and Pre-Trained BERT also showed strong performance, surpassing traditional models.
 - Neutral reviews were generally the most difficult to classify correctly, especially for non-contextual models.
 
----
 
 ## Future Work
 
@@ -54,5 +44,4 @@ Future improvements could include:
 - Using **ensemble methods** for performance boosting.
 - Adding **explainability tools** like SHAP or LIME to interpret model decisions, especially in user-facing applications.
 
----
 
