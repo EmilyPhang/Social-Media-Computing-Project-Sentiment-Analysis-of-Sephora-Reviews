@@ -4,7 +4,6 @@ This project presents an end-to-end NLP pipeline for analyzing customer sentimen
 1.  **Sentiment Classification:** Evaluating various machine learning and deep learning models to classify overall review sentiment.
 2.  **Opinion Mining & Visualization:** Performing Aspect-Based Sentiment Analysis (ABSA) to extract detailed insights about specific product features and visualizing these findings.
 
-
 ## Dataset
 
 - **Source**: Sephora product review dataset (https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
@@ -17,7 +16,6 @@ This project presents an end-to-end NLP pipeline for analyzing customer sentimen
 ## Part 1: Sentiment Classification
 
 This project explores the effectiveness of various machine learning and deep learning models in classifying customer sentiment from Sephora product reviews. The models include Logistic Regression, SVM, Pre-Trained BERT, CNN, and Fine-Tuned BERT. The goal is to evaluate how well each model can detect **positive**, **neutral**, and **negative** sentiments from user-generated text.
-
 
 ### Models Used
 
